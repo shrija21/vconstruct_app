@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'products/first_product'
+
+  get 'products/second_product'
+
   devise_for :users
   root "welcome#index"
 
